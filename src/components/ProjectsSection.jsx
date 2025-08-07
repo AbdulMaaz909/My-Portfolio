@@ -6,8 +6,8 @@ const projects = [
     title: "SaaS Landing Page",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    tags: ["React", "TailwindCSS", "Node.js"],
+    demoUrl: "https://www.shourk.com/",
     githubUrl: "#",
   },
   {
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/AbdulMaaz909"
           >
             Check My Github <ArrowRight size={16} />
           </a>
