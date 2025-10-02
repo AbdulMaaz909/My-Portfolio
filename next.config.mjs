@@ -6,11 +6,17 @@
 // export default nextConfig;
 
 
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    outputFileTracingRoot: require('path').join(__dirname, '../../')
-  }
+    outputFileTracingRoot: path.join(__dirname, '../../'),
+  },
 }
 
-module.exports = nextConfig
+export default nextConfig
