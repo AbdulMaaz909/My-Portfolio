@@ -68,7 +68,7 @@ const Home = () => {
               Got a Project?
             </a>
             <a
-              href="/resume.pdf" // change with actual resume path
+              href="https://drive.google.com/file/d/1itjsw_U7AJ9LLBjYOAW8W0QAF6SO3NZj/view?usp=drive_link" // change with actual resume path
               target="_blank"
               className="px-6 py-3 border border-gray-500 hover:border-indigo-500 text-gray-200 hover:text-white rounded-lg transition transform hover:scale-105 shadow-lg"
             >
