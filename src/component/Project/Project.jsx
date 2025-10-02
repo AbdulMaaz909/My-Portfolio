@@ -25,6 +25,7 @@ const projects = [
     img: "/Project_1.png",
     github: "https://github.com/dev-nexcore/xtroc",
     demo: "https://xtorcind.com",
+    
   },
   {
     title: "Consultancy Platform",
@@ -76,7 +77,7 @@ const Projects = () => {
                 <img
                   src={project.img}
                   alt={project.title}
-                  className="w-full h-56 object-cover group-hover:opacity-80 transition duration-500"
+                  className="w-full h-56 object-content group-hover:opacity-80 transition duration-500"
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500">
                   <a
