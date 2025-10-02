@@ -60,7 +60,7 @@ const Contact = () => {
           {/* Left Side: Contact Info */}
           <motion.div
             variants={container}
-            className="space-y-8 py-2 text-center md:text-left text-3xl"
+            className="space-y-8 py-2 text-center md:text-left md:text-3xl text-xl"
           >
             <motion.div variants={item} className="flex items-center gap-4 cursor-pointer">
               <Mail className="w-6 h-6 text-indigo-400" />

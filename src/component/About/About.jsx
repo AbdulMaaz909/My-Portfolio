@@ -27,7 +27,7 @@ const About = () => {
         initial="hidden"
         whileInView="show" // 🔥 Animates on scroll
         viewport={{ once: true, amount: 0.3 }}
-        className="max-w-6xl mx-auto text-center md:text-left flex flex-col md:flex-row items-center gap-12"
+        className="max-w-6xl mx-auto text-center md:text-left flex flex-col-reverse md:flex-row items-center gap-12"
       >
         {/* Left Side: Image */}
         <motion.div variants={item} className="md:w-1/2 flex justify-center">
