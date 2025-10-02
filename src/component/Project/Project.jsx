@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Xtorc Website Portfolio",
     desc: "An advanced, performance-optimized Next.js/Tailwind application for a product catalog, demonstrating mastery of Framer Motion and complex Mega-Menu state management.",
-    img: "/project_1.png",
+    img: "/Project_1.png",
     github: "https://github.com/dev-nexcore/xtroc",
     demo: "https://xtorcind.com",
   },
