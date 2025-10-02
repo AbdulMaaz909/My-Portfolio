@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    outputFileTracingRoot: "C:\Users\abdul\Portfolio\portfilio",
+    // outputFileTracingRoot: "C:\Users\abdul\Portfolio\portfilio",
     // C:\Users\abdul\Portfolio\portfilio
 };
 
